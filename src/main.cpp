@@ -25,4 +25,8 @@ int main()
 	std::cout << cos << std::endl;
 	std::cout << tan << std::endl;
 	std::cout << cotan << std::endl;
+
+#ifdef BUILD_TESTS
+
+#endif
 }
